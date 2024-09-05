@@ -28,6 +28,7 @@ fixtures = [
 cal = Calendar()
 cal.add('prodid', '-//Allestree Juniors Milan Fixtures//')
 cal.add('version', '2.0')
+cal.add('X-WR-CALNAME', 'Allestree Juniors Milan Fixtures 2024/25')
 
 # Timezone
 uk_tz = timezone('Europe/London')

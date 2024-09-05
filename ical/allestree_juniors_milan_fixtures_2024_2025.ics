@@ -1,6 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Allestree Juniors Milan Fixtures//
+X-WR-CALNAME:Allestree Juniors Milan Fixtures 2024/25
 BEGIN:VEVENT
 SUMMARY:Melbourne Dynamo Pistons vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20240908T103000
