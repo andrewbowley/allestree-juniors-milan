@@ -43,7 +43,7 @@ uk_tz = timezone('Europe/London')
 for fixture in fixtures:
     event = Event()
     start_dt = datetime.strptime(fixture[1], "%d/%m/%y %H:%M")
-    end_dt = start_dt.replace(hour=12, minute=30)  # Set end time to 12:30
+    end_dt = start_dt.replace(hour=12, minute=00)  # Set end time to 12:00
 
     # Create summary based on whether result is available
     if fixture[6]:  # If result is available
