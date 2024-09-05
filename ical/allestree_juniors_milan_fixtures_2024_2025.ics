@@ -1,0 +1,140 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Allestree Juniors Milan Fixtures//
+BEGIN:VEVENT
+SUMMARY:Melbourne Dynamo Pistons vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20240908T103000
+DTEND;TZID=Europe/London:20240908T123000
+DESCRIPTION:Fixture between Melbourne Dynamo Pistons and Allestree Juniors
+  Milan at Melbourne Sports Park Pitch 2.
+LOCATION:Melbourne Sports Park Pitch 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Ripley Town
+DTSTART;TZID=Europe/London:20240915T103000
+DTEND;TZID=Europe/London:20240915T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Ripley Town at DCC
+  2023 Darley Playing Fields Pitch 3.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Mickleover C P Ajax vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20240922T103000
+DTEND;TZID=Europe/London:20240922T123000
+DESCRIPTION:Fixture between Mickleover C P Ajax and Allestree Juniors Mila
+ n at Mickleover Country Park S.C. Pitch 1.
+LOCATION:Mickleover Country Park S.C. Pitch 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Mickleover C P Ajax
+DTSTART;TZID=Europe/London:20240929T103000
+DTEND;TZID=Europe/London:20240929T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Mickleover C P Aja
+ x at DCC 2023 Darley Playing Fields Pitch 4.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Erewash Eagles vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20241006T103000
+DTEND;TZID=Europe/London:20241006T123000
+DESCRIPTION:Fixture between Erewash Eagles and Allestree Juniors Milan at 
+ DCC 2023 Chaddesden Park Pitch 5.
+LOCATION:DCC 2023 Chaddesden Park Pitch 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Melbourne Dynamo Pistons
+DTSTART;TZID=Europe/London:20241013T103000
+DTEND;TZID=Europe/London:20241013T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Melbourne Dynamo P
+ istons at DCC 2023 Darley Playing Fields Pitch 2.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Shelton FC Bisons vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20241020T103000
+DTEND;TZID=Europe/London:20241020T123000
+DESCRIPTION:Fixture between Shelton FC Bisons and Allestree Juniors Milan 
+ at Hippo Park Pitch 1 (Cup).
+LOCATION:Hippo Park Pitch 1 (Cup)
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Codnor Sports Legends vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20241027T103000
+DTEND;TZID=Europe/London:20241027T123000
+DESCRIPTION:Fixture between Codnor Sports Legends and Allestree Juniors Mi
+ lan at Aldercar College Pitch 1.
+LOCATION:Aldercar College Pitch 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Codnor Sports Legends
+DTSTART;TZID=Europe/London:20241110T103000
+DTEND;TZID=Europe/London:20241110T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Codnor Sports Lege
+ nds at DCC 2023 Darley Playing Fields Pitch 5.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Springwood United Tornadoes vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20241117T103000
+DTEND;TZID=Europe/London:20241117T123000
+DESCRIPTION:Fixture between Springwood United Tornadoes and Allestree Juni
+ ors Milan at DCC 2023 Alvaston Park Pitch 4.
+LOCATION:DCC 2023 Alvaston Park Pitch 4
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Field Lane Raiders vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20241124T103000
+DTEND;TZID=Europe/London:20241124T123000
+DESCRIPTION:Fixture between Field Lane Raiders and Allestree Juniors Milan
+  at Field Lane Community Centre Pitch 2.
+LOCATION:Field Lane Community Centre Pitch 2
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Field Lane Raiders
+DTSTART;TZID=Europe/London:20241201T103000
+DTEND;TZID=Europe/London:20241201T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Field Lane Raiders
+  at DCC 2023 Darley Playing Fields Pitch 5.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Erewash Eagles
+DTSTART;TZID=Europe/London:20241215T103000
+DTEND;TZID=Europe/London:20241215T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Erewash Eagles at 
+ DCC 2023 Darley Playing Fields Pitch 6.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 6
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs Springwood United Tornadoes
+DTSTART;TZID=Europe/London:20250105T103000
+DTEND;TZID=Europe/London:20250105T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and Springwood United 
+ Tornadoes at DCC 2023 Darley Playing Fields Pitch 5.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 5
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:West Hallam Dynamos vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20250112T103000
+DTEND;TZID=Europe/London:20250112T123000
+DESCRIPTION:Fixture between West Hallam Dynamos and Allestree Juniors Mila
+ n at Beech Lane Recreation Ground.
+LOCATION:Beech Lane Recreation Ground
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Allestree Juniors Milan vs West Hallam Dynamos
+DTSTART;TZID=Europe/London:20250119T103000
+DTEND;TZID=Europe/London:20250119T123000
+DESCRIPTION:Fixture between Allestree Juniors Milan and West Hallam Dynamo
+ s at DCC 2023 Darley Playing Fields Pitch 3.
+LOCATION:DCC 2023 Darley Playing Fields Pitch 3
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ripley Town vs Allestree Juniors Milan
+DTSTART;TZID=Europe/London:20250126T103000
+DTEND;TZID=Europe/London:20250126T123000
+DESCRIPTION:Fixture between Ripley Town and Allestree Juniors Milan at Gre
+ enwich Park Pitch 2.
+LOCATION:Greenwich Park Pitch 2
+END:VEVENT
+END:VCALENDAR
