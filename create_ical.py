@@ -60,7 +60,7 @@ for fixture in fixtures:
     event.add('dtend', uk_tz.localize(end_dt))
     event.add('dtstamp', datetime.now(timezone('UTC')))  # Add DTSTAMP
     event.add('location', fixture[5])
-    event.add('description', f"Fixture between {fixture[2]} and {fixture[3]} at {fixture[5]}. Type: {fixture[4]}")
+    event.add('description', f"Fixture between {fixture[2]} and {fixture[3]} at {fixture[5]}.\n\nType: {fixture[4]}")
     event.add('last-modified', datetime.now(timezone('UTC')))
     
     # Generate a consistent UID for the event
