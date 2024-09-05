@@ -1,7 +1,8 @@
 import os
-from icalendar import Calendar, Event
+from icalendar import Calendar, Event, vText
 from datetime import datetime, timedelta
 from pytz import timezone
+import uuid
 
 # Data from the table
 fixtures = [
@@ -29,6 +30,8 @@ cal = Calendar()
 cal.add('prodid', '-//Allestree Juniors Milan Fixtures//')
 cal.add('version', '2.0')
 cal.add('X-WR-CALNAME', 'Allestree Juniors Milan Fixtures 2024/25')
+cal.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
+cal.add('REFRESH-INTERVAL', 'P1H')  # Suggest refreshing every hour
 
 # Timezone
 uk_tz = timezone('Europe/London')
@@ -44,6 +47,10 @@ for fixture in fixtures:
     event.add('dtend', uk_tz.localize(end_dt))
     event.add('location', fixture[3])
     event.add('description', f"Fixture between {fixture[1]} and {fixture[2]} at {fixture[3]}.")
+    event.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
+    
+    # Generate a unique identifier for the event
+    event['uid'] = str(uuid.uuid4())
     
     cal.add_component(event)
 
