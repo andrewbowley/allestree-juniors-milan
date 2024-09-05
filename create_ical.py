@@ -1,7 +1,7 @@
 import os
 import csv
-from icalendar import Calendar, Event
-from datetime import datetime
+from icalendar import Calendar, Event, Timezone, TimezoneStandard
+from datetime import datetime, timedelta
 from pytz import timezone
 import hashlib
 
@@ -20,6 +20,21 @@ cal.add('version', '2.0')
 cal.add('X-WR-CALNAME', 'Allestree Juniors Milan Fixtures 2024/25')
 cal.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
 cal.add('REFRESH-INTERVAL;VALUE=DURATION', 'PT1H')  # Suggest refreshing every hour
+
+# Add VTIMEZONE component
+tz = Timezone()
+tz.add('tzid', 'Europe/London')
+tz.add('x-lic-location', 'Europe/London')
+
+tzs = TimezoneStandard()
+tzs.add('tzname', 'GMT/BST')
+tzs.add('dtstart', datetime(1970, 1, 1, 0, 0, 0))
+tzs.add('rrule', {'freq': 'yearly', 'bymonth': 3, 'byday': '-1su'})
+tzs.add('tzoffsetfrom', timedelta(hours=0))
+tzs.add('tzoffsetto', timedelta(hours=1))
+
+tz.add_component(tzs)
+cal.add_component(tz)
 
 # Timezone
 uk_tz = timezone('Europe/London')
@@ -43,9 +58,10 @@ for fixture in fixtures:
     event.add('summary', summary)
     event.add('dtstart', uk_tz.localize(start_dt))
     event.add('dtend', uk_tz.localize(end_dt))
+    event.add('dtstamp', datetime.now(timezone('UTC')))  # Add DTSTAMP
     event.add('location', fixture[5])
     event.add('description', f"Fixture between {fixture[2]} and {fixture[3]} at {fixture[5]}. Type: {fixture[4]}")
-    event.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
+    event.add('last-modified', datetime.now(timezone('UTC')))
     
     # Generate a consistent UID for the event
     uid_string = f"2024-2025_{fixture[0]}"  # Use season and match ID
