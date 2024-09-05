@@ -19,7 +19,7 @@ cal.add('prodid', '-//Allestree Juniors Milan Fixtures//')
 cal.add('version', '2.0')
 cal.add('X-WR-CALNAME', 'Allestree Juniors Milan Fixtures 2024/25')
 cal.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
-cal.add('REFRESH-INTERVAL', 'P1H')  # Suggest refreshing every hour
+cal.add('REFRESH-INTERVAL;VALUE=DURATION', 'PT1H')  # Suggest refreshing every hour
 
 # Timezone
 uk_tz = timezone('Europe/London')
