@@ -4,39 +4,46 @@ This repository contains the fixtures for Allestree Juniors Milan for the 2024/2
 
 ## Adding the Fixtures to Your Calendar
 
-You can add these fixtures to your calendar application by following these steps:
+You can subscribe to these fixtures in your calendar application, which will automatically update if changes are made. Here's how:
 
-1. Download the `allestree_juniors_milan_fixtures_2024_2025.ics` file from the `ical` folder in this repository.
+1. Copy this URL:
+   ```
+   https://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics
+   ```
 
-   [Download ICS file](https://github.com/andrewbowley/allestree-juniors-milan/raw/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
-
-2. Import the file into your preferred calendar application:
+2. Add the calendar to your preferred application:
 
 ### Google Calendar
 - Open Google Calendar in your web browser
-- Click the gear icon (Settings) and select "Settings"
-- Click "Import & Export" on the left sidebar
-- Click "Select file from your computer" and choose the downloaded .ics file
-- Select the calendar you want to add the events to
-- Click "Import"
+- On the left side, next to "Other calendars," click the plus icon
+- Select "From URL"
+- Paste the copied URL into the "URL of calendar" field
+- Click "Add calendar"
 
 ### Apple Calendar (iCal)
 - Open the Calendar app
-- Go to File > Import
-- Select the downloaded .ics file
-- Choose which calendar to add the events to
-- Click "Import"
+- Go to File > New Calendar Subscription
+- Paste the copied URL and click Subscribe
+- Adjust the auto-refresh and alert settings as desired
+- Click OK
 
-### Microsoft Outlook
+### Microsoft Outlook (Desktop)
 - Open Outlook
-- Go to File > Open & Export > Import/Export
-- Select "Import an iCalendar (.ics) or vCalendar file (.vcs)"
-- Browse to the downloaded .ics file and click "Open"
-- Click "Import"
+- Go to Calendar view
+- Right-click on "Other Calendars" in the folder pane
+- Select "Add Calendar" > "From Internet"
+- Paste the copied URL and click OK
+- Click "Yes" to subscribe to the calendar
+
+### Outlook.com (Web)
+- Go to Outlook.com and open the calendar
+- On the left side, click "Add calendar"
+- Select "Subscribe from web"
+- Paste the copied URL, give the calendar a name, and click "Import"
 
 ### Other Calendar Apps
-Most calendar applications support importing .ics files. Look for an "Import" or "Add Calendar" option in your app's settings or file menu.
+Most calendar applications support subscribing to external calendars. Look for options like "Add Calendar," "Subscribe to Calendar," or "Add by URL" in your app's settings.
 
-After importing, you should see all the Allestree Juniors Milan fixtures for the 2024/25 season in your calendar.
+After subscribing, you should see all the Allestree Juniors Milan fixtures for the 2024/25 season in your calendar. The calendar will update automatically when changes are made to the source file.
 
 
