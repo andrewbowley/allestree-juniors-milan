@@ -8,7 +8,7 @@ You can add these fixtures to your calendar application by following these steps
 
 1. Download the `allestree_juniors_milan_fixtures_2024_2025.ics` file from the `ical` folder in this repository.
 
-   [Direct link to ICS file](https://github.com/andrewbowley/allestree-juniors-milan/raw/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
+   [Download ICS file](https://github.com/andrewbowley/allestree-juniors-milan/raw/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
 
 2. Import the file into your preferred calendar application:
 
