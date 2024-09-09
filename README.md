@@ -10,7 +10,7 @@ You can subscribe to this calendar, which will automatically update if changes a
 
 ### Option 1: Direct Subscription (Recommended)
 
-Copy the following URL:
+Click on the following link to subscribe directly:
 
 [Subscribe to Calendar](webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
 <a href="webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics">Subscribe to Calendar</a>
