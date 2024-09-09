@@ -33,17 +33,31 @@
             color: #c41e3a;
             margin-right: 10px;
         }
-        a {
-            color: #c41e3a;
+        .btn {
+            display: inline-block;
+            background-color: #c41e3a;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
             text-decoration: none;
+            transition: background-color 0.3s ease;
         }
-        a:hover {
-            text-decoration: underline;
+        .btn:hover {
+            background-color: #a01830;
+            text-decoration: none;
         }
         .disclaimer {
             font-size: 0.8em;
             font-style: italic;
             margin-top: 30px;
+        }
+        code {
+            display: block;
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: monospace;
+            word-wrap: break-word;
         }
     </style>
 </head>
@@ -52,8 +66,8 @@
     
     <div class="subscription-option">
         <h2><i class="fas fa-link icon"></i>Direct Subscription (Recommended)</h2>
-        <p>Click the link below to subscribe directly:</p>
-        <p><a href="webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics">
+        <p>Click the button below to subscribe directly:</p>
+        <p><a href="webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics" class="btn">
             <i class="fas fa-calendar-plus icon"></i>Subscribe to Calendar
         </a></p>
         <p>This should prompt your default calendar application to subscribe to the calendar.</p>
@@ -61,8 +75,8 @@
 
     <div class="subscription-option">
         <h2><i class="fab fa-google icon"></i>Google Calendar</h2>
-        <p>For Google Calendar users, click the following link:</p>
-        <p><a href="https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics">
+        <p>For Google Calendar users, click the following button:</p>
+        <p><a href="https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics" class="btn">
             <i class="fas fa-calendar-plus icon"></i>Subscribe in Google Calendar
         </a></p>
     </div>
