@@ -8,11 +8,12 @@ This repository contains a subscribable calendar for Allestree Juniors Milan fix
 
 You can subscribe to this calendar, which will automatically update if changes are made. Here's how:
 
-### Option 1: Direct Subscription Link (Recommended)
+### Option 1: Direct Subscription (Recommended)
 
-Click on the following link to subscribe directly:
+Copy the following URL:
 
 [Subscribe to Calendar](webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
+<a href="webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics">Subscribe to Calendar</a>
 
 This should prompt your default calendar application to subscribe to the calendar.
 
