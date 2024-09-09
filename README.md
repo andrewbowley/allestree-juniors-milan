@@ -1,51 +1,33 @@
 # Allestree Juniors Milan Fixtures 2024/25
 
-**Disclaimer:** This calendar is not officially affiliated with or endorsed by Allestree Juniors or Derby City Football League. It is an unofficial resource created for convenience. I got annoyed that the Full Time website didn't have an ical option to add fixtures to your calendar.
+**Disclaimer:** This calendar is not officially affiliated with or endorsed by Allestree Juniors or Derby City Football League. It is an unofficial resource created for convenience.
 
-This repository contains the fixtures for Allestree Juniors Milan for the 2024/25 season in iCalendar (.ics) format.
+This repository contains a subscribable calendar for Allestree Juniors Milan fixtures for the 2024/25 season in iCalendar (.ics) format.
 
-## Adding the Fixtures to Your Calendar
+## Subscribing to the Fixtures Calendar
 
-You can subscribe to these fixtures in your calendar application, which will automatically update if changes are made. Here's how:
+You can subscribe to this calendar, which will automatically update if changes are made. Here's how:
 
-1. Copy this URL:
+### Option 1: Direct Subscription Link (Recommended)
+
+Click on the following link to subscribe directly:
+
+[Subscribe to Calendar](webcal://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
+
+This should prompt your default calendar application to subscribe to the calendar.
+
+### Option 2: Google Calendar
+
+For Google Calendar users, click on the following link:
+
+[Subscribe in Google Calendar](https://calendar.google.com/calendar/r?cid=https://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics)
+
+### Option 3: Manual Subscription
+
+If the above options don't work, you can manually subscribe using this URL:
+
 ```
 https://raw.githubusercontent.com/andrewbowley/allestree-juniors-milan/main/ical/allestree_juniors_milan_fixtures_2024_2025.ics
 ```
-
-2. Add the calendar to your preferred application:
-
-### Google Calendar
-- Open Google Calendar in your web browser
-- On the left side, next to "Other calendars," click the plus icon
-- Select "From URL"
-- Paste the copied URL into the "URL of calendar" field
-- Click "Add calendar"
-
-### Apple Calendar (iCal)
-- Open the Calendar app
-- Go to File > New Calendar Subscription
-- Paste the copied URL and click Subscribe
-- Adjust the auto-refresh and alert settings as desired
-- Click OK
-
-### Microsoft Outlook (Desktop)
-- Open Outlook
-- Go to Calendar view
-- Right-click on "Other Calendars" in the folder pane
-- Select "Add Calendar" > "From Internet"
-- Paste the copied URL and click OK
-- Click "Yes" to subscribe to the calendar
-
-### Outlook.com (Web)
-- Go to Outlook.com and open the calendar
-- On the left side, click "Add calendar"
-- Select "Subscribe from web"
-- Paste the copied URL, give the calendar a name, and click "Import"
-
-### Other Calendar Apps
-Most calendar applications support subscribing to external calendars. Look for options like "Add Calendar," "Subscribe to Calendar," or "Add by URL" in your app's settings.
-
-After subscribing, you should see all the Allestree Juniors Milan fixtures for the 2024/25 season in your calendar. The calendar will update automatically when changes are made to the source file.
 
 
