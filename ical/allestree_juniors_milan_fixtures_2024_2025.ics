@@ -1,7 +1,7 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Allestree Juniors Milan Fixtures//
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 REFRESH-INTERVAL;VALUE=DURATION:PT1H
 X-WR-CALNAME:Allestree Juniors Milan Fixtures 2024/25
 BEGIN:VTIMEZONE
@@ -19,187 +19,187 @@ BEGIN:VEVENT
 SUMMARY:Melbourne Dynamo Pistons 0-9 Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20240908T103000
 DTEND;TZID=Europe/London:20240908T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:1d6ed6476cdf49cc39f4d3a42413fe91@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Melbourne Dynamo Pistons and Allestree Juniors
   Milan at Twyford Road\, Barrow on Trent\, Derby DE73 7HA.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Twyford Road\, Barrow on Trent\, Derby DE73 7HA
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan 6-1 Ripley Town
 DTSTART;TZID=Europe/London:20240915T103000
 DTEND;TZID=Europe/London:20240915T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:1e40ad9e232065cd248ca9b40e2a8256@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Ripley Town at DCC
   2023 Darley Playing Fields Pitch 3.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 3
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Mickleover C P Ajax vs Allestree Juniors Milan
+SUMMARY:Mickleover C P Ajax 1-7 Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20240922T103000
 DTEND;TZID=Europe/London:20240922T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:757ef746ff44845257a441b56ffe3ea2@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Mickleover C P Ajax and Allestree Juniors Mila
  n at Mickleover Country Park S.C. Pitch 1.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Mickleover Country Park S.C. Pitch 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Mickleover C P Ajax
 DTSTART;TZID=Europe/London:20240929T103000
 DTEND;TZID=Europe/London:20240929T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:1b3aafa231c12663c98918bdbd61ec82@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Mickleover C P Aja
  x at DCC 2023 Darley Playing Fields Pitch 4.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Erewash Eagles vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20241006T103000
 DTEND;TZID=Europe/London:20241006T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:8f0021d0264fbf0e06cca0ba3b52d1dc@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Erewash Eagles and Allestree Juniors Milan at 
  DCC 2023 Chaddesden Park Pitch 5.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Chaddesden Park Pitch 5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Melbourne Dynamo Pistons
 DTSTART;TZID=Europe/London:20241013T103000
 DTEND;TZID=Europe/London:20241013T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:a0416617681b2cb38d5eb6f9b7c5bfbc@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Melbourne Dynamo P
  istons at DCC 2023 Darley Playing Fields Pitch 2.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Shelton FC Bisons vs Allestree Juniors Milan (Cup)
 DTSTART;TZID=Europe/London:20241020T103000
 DTEND;TZID=Europe/London:20241020T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:84ab10d27cdb2d64cbbc91473a905ca8@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Shelton FC Bisons and Allestree Juniors Milan 
  at Hippo Park Pitch 1.\n\nType: Cup
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Hippo Park Pitch 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Codnor Sports Legends vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20241027T103000
 DTEND;TZID=Europe/London:20241027T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:0244e3b4a7f3323fbecca6f7af68e438@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Codnor Sports Legends and Allestree Juniors Mi
  lan at Aldercar College Pitch 1.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Aldercar College Pitch 1
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Codnor Sports Legends
 DTSTART;TZID=Europe/London:20241110T103000
 DTEND;TZID=Europe/London:20241110T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:8aa4517ecaeddd9fcd1a651b8ecd2159@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Codnor Sports Lege
  nds at DCC 2023 Darley Playing Fields Pitch 5.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Springwood United Tornadoes vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20241117T103000
 DTEND;TZID=Europe/London:20241117T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:31e49de38e0a4a7449ed6a984015e690@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Springwood United Tornadoes and Allestree Juni
  ors Milan at DCC 2023 Alvaston Park Pitch 4.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Alvaston Park Pitch 4
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Field Lane Raiders vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20241124T103000
 DTEND;TZID=Europe/London:20241124T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:c9a316eca3ed24c809aad0b35e66e0ad@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Field Lane Raiders and Allestree Juniors Milan
   at Field Lane Community Centre Pitch 2.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Field Lane Community Centre Pitch 2
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Field Lane Raiders
 DTSTART;TZID=Europe/London:20241201T103000
 DTEND;TZID=Europe/London:20241201T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:d6c065d7680fa46f9b76f0aefafe1886@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Field Lane Raiders
   at DCC 2023 Darley Playing Fields Pitch 5.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Erewash Eagles
 DTSTART;TZID=Europe/London:20241215T103000
 DTEND;TZID=Europe/London:20241215T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:3ab71939fa46e9498f9dee18e6ff397e@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Erewash Eagles at 
  DCC 2023 Darley Playing Fields Pitch 6.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 6
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs Springwood United Tornadoes
 DTSTART;TZID=Europe/London:20250105T103000
 DTEND;TZID=Europe/London:20250105T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:cf801ce87156f52660b5b3b4f8929c2b@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and Springwood United 
  Tornadoes at DCC 2023 Darley Playing Fields Pitch 5.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 5
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:West Hallam Dynamos vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20250112T103000
 DTEND;TZID=Europe/London:20250112T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:689774d38d439fee214e7cad4fde3d2a@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between West Hallam Dynamos and Allestree Juniors Mila
  n at Beech Lane Recreation Ground.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Beech Lane Recreation Ground
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Allestree Juniors Milan vs West Hallam Dynamos
 DTSTART;TZID=Europe/London:20250119T103000
 DTEND;TZID=Europe/London:20250119T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:603196ab6cb8714c6f2bdc8bc1dc8e9b@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Allestree Juniors Milan and West Hallam Dynamo
  s at DCC 2023 Darley Playing Fields Pitch 3.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:DCC 2023 Darley Playing Fields Pitch 3
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Ripley Town vs Allestree Juniors Milan
 DTSTART;TZID=Europe/London:20250126T103000
 DTEND;TZID=Europe/London:20250126T120000
-DTSTAMP:20240915T153601Z
+DTSTAMP:20240922T193138Z
 UID:ecca2edb4a114d66572409d4769dc4a0@allestree-juniors-milan.github.io
 DESCRIPTION:Fixture between Ripley Town and Allestree Juniors Milan at Gre
  enwich Park Pitch 2.\n\nType: League
-LAST-MODIFIED:20240915T153601Z
+LAST-MODIFIED:20240922T193138Z
 LOCATION:Greenwich Park Pitch 2
 END:VEVENT
 END:VCALENDAR
