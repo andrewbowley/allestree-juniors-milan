@@ -1,6 +1,6 @@
 import os
 import csv
-from icalendar import Calendar, Event, Timezone, TimezoneStandard
+from icalendar import Calendar, Event, Timezone, TimezoneStandard, TimezoneDaylight
 from datetime import datetime, timedelta
 from pytz import timezone
 import hashlib
@@ -21,19 +21,27 @@ cal.add('X-WR-CALNAME', 'Allestree Juniors Milan Fixtures 2024/25')
 cal.add('LAST-MODIFIED', datetime.now(timezone('UTC')))
 cal.add('REFRESH-INTERVAL;VALUE=DURATION', 'PT1H')  # Suggest refreshing every hour
 
-# Add VTIMEZONE component
+# Add VTIMEZONE component with Daylight Saving Time and Standard Time
 tz = Timezone()
 tz.add('tzid', 'Europe/London')
 tz.add('x-lic-location', 'Europe/London')
 
-tzs = TimezoneStandard()
-tzs.add('tzname', 'GMT/BST')
-tzs.add('dtstart', datetime(1970, 1, 1, 0, 0, 0))
-tzs.add('rrule', {'freq': 'yearly', 'bymonth': 3, 'byday': '-1su'})
-tzs.add('tzoffsetfrom', timedelta(hours=0))
-tzs.add('tzoffsetto', timedelta(hours=1))
+dst = TimezoneDaylight()
+dst.add('tzname', 'BST')
+dst.add('dtstart', datetime(1970, 3, 29, 1, 0, 0))
+dst.add('rrule', {'freq': 'yearly', 'bymonth': 3, 'byday': '-1su'})
+dst.add('tzoffsetfrom', timedelta(hours=0))
+dst.add('tzoffsetto', timedelta(hours=1))
 
-tz.add_component(tzs)
+std = TimezoneStandard()
+std.add('tzname', 'GMT')
+std.add('dtstart', datetime(1970, 10, 25, 2, 0, 0))
+std.add('rrule', {'freq': 'yearly', 'bymonth': 10, 'byday': '-1su'})
+std.add('tzoffsetfrom', timedelta(hours=1))
+std.add('tzoffsetto', timedelta(hours=0))
+
+tz.add_component(dst)
+tz.add_component(std)
 cal.add_component(tz)
 
 # Timezone
